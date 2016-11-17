@@ -1,0 +1,16 @@
+public class assignments {
+	
+		
+		public static void main(String[] args) {
+			
+			int a=2,b=3; //declaration and assigning of variables
+			
+			b=a+b;      
+			a=b-a;   //swaping of original b value to a
+			b=b-a;   //swaping of original a value to b
+			
+			
+			System.out.println("the values of a and b after swaping is  " +a+" and "+b);
+		}
+	}
+			
